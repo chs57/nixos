@@ -7,8 +7,8 @@
 { config, pkgs, ... }:
 
 
-#nixpkgs.config.allowUnfree = true;
-#services.xserver.videoDrivers = [ "nvidia" ];
+nixpkgs.config.allowUnfree = true;
+services.xserver.videoDrivers = [ "nvidia" ];
 
 {
   imports =
